@@ -1,0 +1,33 @@
+.Albums {
+  background-color: inherit;
+
+  .Loading_Atom {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .Albums_Item {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 8px;
+
+    .Title_box {
+      text-align: center;
+
+      > h3 {
+        display: inline-block;
+      }
+    }
+
+    .userId_id {
+      display: flex;
+      justify-content: space-evenly;
+
+      span h3 {
+        display: inline-block;
+      }
+    }
+  }
+}

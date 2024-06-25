@@ -1,0 +1,29 @@
+.Comments {
+  background-color: inherit;
+
+  .Loading_BlinkBlur {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .Comments_Item {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 4px;
+
+    > div h4 {
+      display: inline-block;
+    }
+
+    > p {
+      text-align: center;
+
+      span {
+        margin: 0 10px;
+      }
+    }
+  }
+}
